@@ -1,5 +1,5 @@
 // As we have already discussed in the into file  that everything happens in javascript in the
-//  **execution environment. So the entire execution happens in two phases as follows
+//  **execution environment i.e GLOBAL EXECUTION CONTEXT. So the entire execution happens in two phases as follows
 
 // 1. Memory allocation phase- all the **variables  and **functions get their memory allocated
 //  in the memory with {undefined**} and the entire code  respectively. 
