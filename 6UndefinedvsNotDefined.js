@@ -2,7 +2,7 @@
 //  of itself 'defined' hence 'undefined' and until the variable has assigned a value, the 
 //  'undefined' fills that particular placeholder
 // and 'undefined' is itself a datatype
-// (really sorry for referencing with c++ concepts)
+
 
 // Not Defined: This case comes in error where js engine neither find that particular 
 //variable nor its placeholder

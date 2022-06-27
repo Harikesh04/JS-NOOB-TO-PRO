@@ -22,9 +22,9 @@
 
 
 
- var a = 100;
+ var a = 100;//it will  be defined in global scope
 {
- var a = 10;
+ var a = 10;//it will  be defined in block scope
  let b = 20;
  const c =30; 
  console.log(a);//10
