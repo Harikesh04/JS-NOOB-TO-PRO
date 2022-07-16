@@ -58,9 +58,10 @@ console.log(add10(2));// ,,,, //
 //Disadvantages of closure
 
 //1.there could be over consuption of memory.
-//2.if closures not handled properly it can cause memory leack and memory can be accumulated together and can causes frizzing of the browezer due to of the garbage collector. 
+//2.if closures not handled properly it can cause memory leack and memory can be accumulated together and can causes frizzing of the browzer due to of the garbage collector. 
 
 
+//Advantages
 //ex of data privacy using closure
 
 function func(){

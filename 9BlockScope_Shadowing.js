@@ -24,7 +24,7 @@
 
  var a = 100;//it will  be defined in global scope
 {
- var a = 10;//it will  be defined in block scope
+ var a = 10;//it will  be reintialized in global scope
  let b = 20;
  const c =30; 
  console.log(a);//10
@@ -32,10 +32,10 @@
  console.log(c);//30
 }
  console.log(a);//10 important case
- console.log(b);//not defined since let is local scoped
- console.log(c);//not defined since const is local scoped
+ console.log(b);//not defined since let is block scoped
+ console.log(c);//not defined since const is block scoped
 
-
+// in block " var a = 10;" influences the value within the block hence  console.log(a); >> 10  since it is reintialized in global scope therefore it will affect the value of the the a ouside the block. 
 
 let b= 100;
 {
@@ -44,10 +44,10 @@ let b= 100;
 }
 console.log(b);//100
 
+// since because let is block scoped
 
 
 
-// So in block " var a = 10;" influences the value within the block hence  console.log(a); >> 10 and outside of the block 'Variable in Global environment' influences value of a hence console.log(a); >> 100
 
 // Illegal shadowing:
 

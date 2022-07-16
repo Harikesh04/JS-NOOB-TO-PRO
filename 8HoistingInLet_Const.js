@@ -34,4 +34,4 @@ let a = 10;
 // different types of error
 // syntax error ... violation of JS syntax
 //type error ...  while trying to re-initialize const variable
-// reference error ... while trying to access variable which is not there in global memory.
+// reference error ... while trying to access variable which is not there in global memory.    example in case of hoisting in let and const.

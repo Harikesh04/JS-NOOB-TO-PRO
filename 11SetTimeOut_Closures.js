@@ -50,7 +50,7 @@ outer();
 
 // since because of let is a block scoped and after every iteration a new value of i will be passed to the function inside settimeout.
 
-//How can we perform the same task without using let?
+//How can we perform the same task without using var?
 
 function x() {
   for (let j = 0; j <= 5; j++) {

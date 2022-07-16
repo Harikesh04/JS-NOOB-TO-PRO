@@ -1,4 +1,4 @@
-// 1. Shortest Program in JS: Empty file. Still, browsers make global EC and global
+// 1. Shortest Program in JS: Empty file. Still, browsers make GEC and global
 // space along with Window object.
 // 2. Global Space: Anything that is not in a function, is in the global space.
 // 3. Variables present in a global space can be accessed by a "window" object.
