@@ -63,11 +63,13 @@ register(function () {
   Sendemail(function () {
     login(function () {
       getuserData(function () {
-        displayUserData();
+        displayUserData(); 
       });
     });
   });
 });
 
 // now  the things become asynchronous and working well but the problem is it is becamed super messay.
+
+// so we use async await.
 
