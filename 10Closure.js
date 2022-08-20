@@ -25,6 +25,7 @@ var myFunc = outerfun();
 console.log(myFunc);// this will print inner function 
 
 //there is also a way to perform the same operation
+// ignore var myFunc = outerfun();
 myFunc()();//here myFunc() will call the outer function and will get innerfun now we are calling innerfun by () .
 myFunc();//this will print Harikesh.
 

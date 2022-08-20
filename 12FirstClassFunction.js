@@ -7,7 +7,7 @@ function func(){
     console.log("Harry");
 }
 
-// Function expression : the function is first created and assigned to a variable so that it can be called by its variable name and unless it is defined, it cannot be executed otherwise it throws out "Uncaught TypeError"
+// Function expression : the function is first created and assigned to a variable so that it can be called by its variable name and unless it is defined, it cannot be executed otherwise it throws out "Uncaught TypeError".Created using anonymous function
 
 var a = function (){
     console.log("hii");

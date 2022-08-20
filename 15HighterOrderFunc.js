@@ -17,7 +17,7 @@ function y(x) {
 
 //1.map function
 
-//map function is use to create a new array from the existing array
+//map function is use to create a ******NEW****** transformed array from the existing array
 
 //eg
 

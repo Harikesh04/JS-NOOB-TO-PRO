@@ -2,22 +2,22 @@
 
 // using call method we can do function burrowing we can use function of one abject and pass data of another object and can use.
 
-//  let name = {
-//     firstname:"Harikesh",
-//     lastname:"Singh",
-//    printName: function() {
-//         console.log(this.firstname+" "+this.lastname);
-//     }
-//  }
+ let name = {
+    firstname:"Harikesh",
+    lastname:"Singh",
+   printName: function() {
+        console.log(this.firstname+" "+this.lastname);
+    }
+ }
 
-//  name.printName();
+ name.printName();
 
-//  // creating another object
+ // creating another object
 
-//  let name2 ={
-//     firstname:"Raghav",
-//     lastname:"pandey",
-//  }
+ let name2 ={
+    firstname:"Raghav",
+    lastname:"pandey",
+ }
 
 //  name.printName.call(name2);
 
@@ -29,17 +29,17 @@ let name3 = {
   firstname: "pankaj",
   lastname: "thripathi",
 };
-// function fullname() {
-//   console.log(this.firstname + " " + this.lastname);
-// }
+function fullname() {
+  console.log(this.firstname + " " + this.lastname);
+}
 
-// let name4 = {
-//   firstname: "rahul",
-//   lastname: "tiwari",
-// };
+let name4 = {
+  firstname: "rahul",
+  lastname: "tiwari",
+};
 
-// fullname.call(name3);
-// fullname.call(name4);
+fullname.call(name3);
+fullname.call(name4);
 
 // // now suppose we want some more data along with the object then what?
 
