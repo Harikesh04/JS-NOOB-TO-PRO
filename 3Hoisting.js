@@ -55,3 +55,6 @@ const getName3 = () =>{
 
 // call stack  is a stack where in which the global execution context is pushed in side the 
 // stack
+
+
+

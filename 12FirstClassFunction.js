@@ -55,4 +55,4 @@ var y= function(){
 
 //###FIRST CLASS FUNCTION###or##FIRST CLASS CITIZEN
 
-// the ability of functions to be used as values , can assigned to a variable , can be passes as argument to another functions and can be returned from another function this ability of funciton is called first class functions in js
+// the ability of functions to be used as values , can assigned to a variable , can be passes as argument to another functions and can be returned from another function this ability of function is called first class functions in js

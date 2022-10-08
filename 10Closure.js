@@ -24,10 +24,10 @@ function outerfun() {
 var myFunc = outerfun();
 console.log(myFunc);// this will print inner function 
 
-//there is also a way to perform the same operation
-// ignore var myFunc = outerfun();
-myFunc()();//here myFunc() will call the outer function and will get innerfun now we are calling innerfun by () .
 myFunc();//this will print Harikesh.
+//there is also a way to perform the same operation
+
+myFunc()();//here myFunc() will call the outer function and will get innerfun now we are calling innerfun by () .
 
 // Here's a slightly more interesting example — a makeAdder function:
 

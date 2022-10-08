@@ -47,6 +47,7 @@ console.log(ans);
 
 // ******THE BEST WAY OF USING MAP FUNCTION IS *************
 
+//here created a new array doublingthearray that is transformed from the main array.and the previous array remains as it is. 
  const doublingthearray = array.map((x)=>x*2);
  console.log(doublingthearray);
 
