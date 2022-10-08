@@ -19,7 +19,7 @@
     lastname:"pandey",
  }
 
-//  name.printName.call(name2);
+ name.printName.call(name2);//Raghav pandey
 
 // here with the help of call we reused the printfunction method of name obj
 

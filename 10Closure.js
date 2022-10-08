@@ -2,7 +2,7 @@
 
 // A closure is the combination of a function bundled together (enclosed) with references to its  lexical environment.
 
-// In other words, a closure gives you access to an outer function’s scope from an inner function.
+// In other words, a closure gives you access to an outer function’s scope from an inner function.(**lexical scope)
 
 // In JavaScript, closures are created every time a function is created, at function creation time.
 
@@ -32,7 +32,7 @@ myFunc()();//here myFunc() will call the outer function and will get innerfun no
 // Here's a slightly more interesting example — a makeAdder function:
 
 //**the function defined in the closure 'remembers' the environment in which it was created.
-
+// (best example for interview)
 
 function makeAdder(x) {
   return function(y) {
@@ -47,6 +47,7 @@ console.log(add5(2)); //now we are providing value to inner func // 7
 console.log(add10(2));// ,,,, // 
 
 //Uses of closers
+// (Interview specific**)
 
 // 1.Module design CanvasPattern
 // Data privacy using closure

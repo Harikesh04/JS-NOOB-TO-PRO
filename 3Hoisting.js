@@ -32,7 +32,7 @@
 
 //1. normal function
 getName();// o/p:hey I am a normal function
-function getName(){
+function getName(){//(**func defined with function statement are hoisted )
     console.log("hey I am a normal function");
 }
 
