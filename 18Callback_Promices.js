@@ -71,5 +71,8 @@ register(function () {
 
 // now  the things become asynchronous and working well but the problem is it is becamed super messay.
 
-// so we use async await.
+//Problems with callback
+
+// 1.Callback hell is created which let to make the code unmaintainable.
+// 2.Inversion of control i.e we loose the control of function because we pass it as callback to some other function and now we don't know that wether the callback funct will ever executes or not
 
