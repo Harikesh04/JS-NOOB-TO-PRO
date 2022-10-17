@@ -1,4 +1,4 @@
-# if you want to master js then you are in write place. this repo conatins all the concept which is important for js.
+# if you want to master js then you are in write place. this repo conatins all the concept which is important for js .
 
 
 
