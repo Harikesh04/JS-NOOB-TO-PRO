@@ -18,7 +18,7 @@ console.log(ar);
 
 
 //so
-//1.map is use to create a new transformed arr from the given array
-//1.for each does not do so
+//1.map is use to create a new transformed arr from the given array even now also we can access the prev array
+//1.for each does not do so it changes the intial array .
 
 //2.we can apply chaining of methods in map ,like filter and reduce etc. but not in foreach

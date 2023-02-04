@@ -1,7 +1,7 @@
 // Golden Rules:
 // 1. Variable declarations are scanned and are made undefined
 // 2. Function declarations are scanned and are made **available
-//3. Arrow functions enact as variables and get "undefined" during
+//3. Arrow functions acts as variables and get "undefined" during
 // the memory creation phase while functions actually get run.
 //4.Hoisting: Mechanism in JS where the variable declarations are 
 // moved to the top of the scope before execution. Therefore it is possible

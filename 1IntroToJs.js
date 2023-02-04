@@ -1,4 +1,4 @@
-// // js is  shyncronous and single threated language.
+//  js is  shyncronous and single threated language.
 
 // synchronous means in js follow the command in order of top to bottom in a specific order .
 
