@@ -188,3 +188,34 @@ console.log(agefrquency);
 
 // it will take first ele of array as the intial value.
 
+// !! how to filter object from array of obj 
+
+
+const user = [
+  {
+      id: 1,
+      firstName: "Marie",
+      lastName: "Curie",
+      level: "Expert"
+  },
+  {
+      id: 2,
+      firstName: "Robert",
+      lastName: "Oppenheimer",
+      level: "Expert"
+  },
+  {
+      id: 3,
+      firstName: "Student",
+      lastName: "Studentson",
+      level: "Beginner"
+  }
+];
+
+<div>
+  {user.filter(user => user.level === 'Expert').map(filteredUser => (
+    <li>
+      {filteredUser.firstName}
+    </li>
+  ))}
+</div>
