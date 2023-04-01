@@ -9,7 +9,7 @@
 // in local space
 
 
-// this keyword points to the object of the function in its lexical scope
+// ? this keyword points to the object of the function in its lexical scope
 
 obj ={
     name:"harikesh",

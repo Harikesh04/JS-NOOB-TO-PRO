@@ -7,6 +7,8 @@
 // moved to the top of the scope before execution. Therefore it is possible
 //  to call a function before initializing it.
 
+// ? arrow function and function expression is not  hoisted
+
 // getName();//o/p: Harikesh SIngh
 
 // console.log(x);//o/p: unDefined
