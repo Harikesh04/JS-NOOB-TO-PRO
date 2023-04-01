@@ -25,19 +25,32 @@
 
 // ?? it is use to generate a single output file that is required to run the application which contains all the js modules , images, css, videos etc.
 
-const promise = new Promise((res, rej) => res(2)).then((res) => {
-  console.log(res);
-  return res * 2;
-}).then((res)=>{
-    console.log(res);
-    return res*2;
+// const promise = new Promise((res, rej) => res(2)).then((res) => {
+//   console.log(res);
+//   return res * 2;
+// }).then((res)=>{
+//     console.log(res);
+//     return res*2;
 
-}).finally((res)=>{
-    console.log(res);
-    return 0;
-}).then((res)=>{
-    console.log(res);
+// }).finally((res)=>{
+//     console.log(res);//undefined
+//     return 0;
+// }).then((res)=>{
+//     console.log(res);
 
-})
+// })
 
 //Output: 2,4,undefined ,8s
+
+// * finally always runs when the promise is settled (either fulfilled or rejected)and it recieves nothing
+
+const arr=[1,2,3,4];
+for(let i in arr){// this will print index of the array
+    console.log(i);
+}
+for(let i of arr){// this will print ele of the array
+    console.log(i);
+}
+
+
+
