@@ -1,4 +1,5 @@
 // !! what are some new tags in html5
+// * semantic tags : those tags which is easy to read
 {/* <header></header>
 <footer></footer>
 <section></section>
