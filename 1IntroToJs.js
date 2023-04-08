@@ -29,3 +29,5 @@
 
 // ** the reason for loosely typed is because js in not build to run in compiler it is for browser where there is no guarentee of what space is avilable so it gives space to the var acc to its type of the data not int string .
 
+// * therefore it will prevent a lot of space in the run time.
+

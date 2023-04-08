@@ -44,13 +44,24 @@
 
 // * finally always runs when the promise is settled (either fulfilled or rejected)and it recieves nothing
 
-const arr=[1,2,3,4];
-for(let i in arr){// this will print index of the array
-    console.log(i);
+// const arr=[1,2,3,4];
+// for(let i in arr){// this will print index of the array
+//     console.log(i);
+// }
+// for(let i of arr){// this will print ele of the array
+//     console.log(i);
+// }
+
+
+const obj1 ={
+    name:"haary",
+    class:"btech"
 }
-for(let i of arr){// this will print ele of the array
-    console.log(i);
+const obj2 ={
+    name:"haary",
+    class:"btech"
 }
 
+// console.log(obj1===obj2);// ? false
 
-
+// in js objects are compared by reference not by value

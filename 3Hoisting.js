@@ -3,7 +3,7 @@
 // 2. Function declarations are scanned and are made **available
 //3. Arrow functions acts as variables and get "undefined" during
 // the memory creation phase while functions actually get run.
-//4.Hoisting: Mechanism in JS where the variable declarations are 
+//4.Hoisting: Mechanism in JS where the variable ,function declarations are 
 // moved to the top of the scope before execution. Therefore it is possible
 //  to call a function before initializing it.
 

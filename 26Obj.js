@@ -212,8 +212,8 @@ multiply(value);
 
 // ! - Difference between shallow copy vs deep copy.
 
-// ? is shallow copy the new variable is connected to the original variable and will affect the original var if there is change in new
-// ? is deep copy the new variable is not connected to the original variable and will  not affect the original var if there is change in new
+// ?  shallow copy{made by refrence} the new variable is connected to the original variable and will affect the original var if there is change in new
+// ?  deep copy the new variable is not connected to the original variable and will  not affect the original var if there is change in new
 
 
 const user3 = {
