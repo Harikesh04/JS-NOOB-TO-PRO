@@ -18,6 +18,7 @@ function b(){
 // In which all the variables are marked as undefined and all the functions are made avilable
 
 // then x will assigned value of 7
+
  
 // then  in function a and b again x will marked as undefined and will again marked as
 //  their value i.e 10 and 100 respectively.
