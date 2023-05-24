@@ -21,3 +21,5 @@ function b(){
  
 // then  in function a and b again x will marked as undefined and will again marked as
 //  their value i.e 10 and 100 respectively.
+
+//hello
