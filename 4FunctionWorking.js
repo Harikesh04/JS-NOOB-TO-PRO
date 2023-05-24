@@ -4,7 +4,7 @@ b();// o/p: 100
 console.log(x);// o/p: 7
 
 function a(){
-    var x=10;// this will be first assigned undefined in loacal execution context then will assign 10 in memory allocation phase.
+    var x=10;// this will be first assigned   execution context then will assign 10 in memory allocation phase.
     console.log(x);
 }
 function b(){
