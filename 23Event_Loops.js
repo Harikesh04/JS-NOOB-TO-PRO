@@ -23,6 +23,8 @@ setTimeout(function cb() {
     console.log("callback");
 }, 5000);
 
+
+
 //here this callback function cb will go inside the web api environment and wait for 5 sec when 5 second will over than event loop will put in into call back queue and  check if callstack is empty then it will be pushed in call stack and our code excecutes after 5s and we will get the desired output.
 
 //Ex2:

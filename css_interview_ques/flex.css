@@ -1,0 +1,11 @@
+.flex{
+    justify-content: center;
+    /* this works horizontally x- axis */
+    align-items: center;
+    /* this works vertically y- axis */
+
+    flex-grow: 2;
+    /* suppose i have 3 div if i give this to any of the div then its lenght will be grow 2 times as compare to other with screen size */
+
+    
+}

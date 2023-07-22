@@ -15,6 +15,8 @@ createOrder(cart)
     console.log(err.message);
   });
 
+  
+
 function proceedToPayment(orderId) {
   const pr = new Promise(function (resolve, reject) {
     const paymentInfo = "payment in done on sharp 12:00am";

@@ -20,14 +20,12 @@
 
 // ?what is interpreted language?
 
- //  ** interpreted language is that language where source code is not compiled into machine code before it is run,but is instead executed directly by an interpreter. The interpreter reads and executes the code line-by-line, translating each line into machine code as it goes.
+//  ** interpreted language is that language where source code is not compiled into machine code before it is run,but is instead executed directly by an interpreter. The interpreter reads and executes the code line-by-line, translating each line into machine code as it goes.
 
 //** */  sometimes it could be fast than some time it could be slow
-
 
 // !! Lossly typed language: In these types of language where variable don't need to be declared with a specific data type like in js var = haary vs in C++ string s = harry
 
 // ** the reason for loosely typed is because js in not build to run in compiler it is for browser where there is no guarentee of what space is avilable so it gives space to the var acc to its type of the data not int string .
 
 // * therefore it will prevent a lot of space in the run time.
-

@@ -1,0 +1,36 @@
+.dispalyProperties{
+    display: block;
+     /* mtlb puri line lega */
+    display: inline;
+    /* mtlb content k jitna hi space lega */
+}
+
+.positionProperties{
+    /* 4 types 
+    1. static // ! by default
+    2.fixed
+    3.absolute
+    4.relative
+
+    
+    */
+
+ position: relative;
+
+ /* isko dene k baad top , bottom , right , left  these 4 powers get unlocked {jha h vha se} */
+
+ position: absolute;
+
+ /* isme parent ki postion se bdlta h */
+
+
+ position: sticky; 
+
+ /* isme scroll ke sath sath chipak jayega bs position deni pdegi top: , right: , left: etc etc */
+
+
+ position: fixed;
+ /* isme fixed ho jayega , isme bhi position deni pdegi */
+
+ 
+}

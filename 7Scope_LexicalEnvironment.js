@@ -1,7 +1,7 @@
 //Scope- it is the region where we can access a paricular data .
 
 
-// ******IN JS WE CAN ACCESS THE VAL OF OUTSIDE DATA IN THE FUN WHICH IS NOT POSSIBLE IN OTHER LANGUAGE LIKE C AND C++ THIS IS ONLY DUE TO LEXICAL SCOPE ***** .
+// ******IN JS WE CAN ACCESS THE VAL OF OUTSIDE DATA IN THE FUNCTION WHICH IS NOT POSSIBLE IN OTHER LANGUAGE LIKE C AND C++ THIS IS ONLY DUE TO LEXICAL SCOPE ***** .
 
 //Scope Chain in js- when ever js engine searches something and it did not get in the scope of the function then it will go to next level of its parent's scope chain then again then again and so on till js engine reach to global execution context.
 

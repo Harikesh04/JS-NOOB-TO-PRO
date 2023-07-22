@@ -14,8 +14,8 @@
 // !! px vs rem vs em
 
 // ? px:static not usually recommended because it is absolute
-// ? rem:multiple of the root font size
-// ? em:multiple of the font size of the ele which is user eg h1 , p etc
+// ? rem:multiple of the root font size , 2rem is 2Xh1 .
+// ? em:multiple of the font size of the body eg body me h1 ka 20px h  toh 2em = 40px
 
 
 // !! 5 way to center the div
