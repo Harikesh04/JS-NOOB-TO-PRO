@@ -29,3 +29,19 @@
 // ** the reason for loosely typed is because js in not build to run in compiler it is for browser where there is no guarentee of what space is avilable so it gives space to the var acc to its type of the data not int string .
 
 // * therefore it will prevent a lot of space in the run time.
+
+
+// // Data types in js
+
+// 1) primitive (immutable)
+
+// Number , string , boolean
+
+
+// 2) non primitive (mutable)
+
+// Array , Object
+
+
+// //?? Concept:  immutable:undefined,number,String,BigInt,null,Symbol => these things will not change
+// //?? mutable:everthing else , Array,object,Date,map, set, function, => these will change

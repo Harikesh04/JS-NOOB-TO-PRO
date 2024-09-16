@@ -1,6 +1,8 @@
 //  1. What are Promises?
 // Promise is an object which  represents the eventual completion or faliure of the async operation. They are just like placeholders to store a future value that will be returned after some time. They contain two properties: PromiseState and PromiseResult.
 
+// ! object with some extra properties
+
 // 2. Importance of Promises:
 // a) Promises can help us to write trust worthy code.
 // b) Promises are used to solve the problems of callbacks like inversion of control and callback hell.

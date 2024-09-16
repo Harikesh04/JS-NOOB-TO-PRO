@@ -9,7 +9,7 @@
 
 // ? arrow function and function expression is not  hoisted
 
-// getName();//o/p: Harikesh SIngh
+// getName();//o/p: Harikesh Singh
 
 // console.log(x);//o/p: unDefined
 // console.log(y);//o/p: error: y is not defined.

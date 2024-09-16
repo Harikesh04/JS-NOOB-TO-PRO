@@ -54,7 +54,8 @@ function multiplyByTwo(obj) {
 const a = {};
 const b = { key: "b" };
 const c = { key: "c" };
-a[b] = 123; a[c] = 456;
+a[b] = 123; 
+a[c] = 456;
 console.log(a[b]);
 
 // And the answer is 456.🥁
@@ -172,14 +173,14 @@ getItems(['banana', 'apple'], 'pear', 'orange');//[ 'banana', 'apple', 'orange',
 let cc = { greeting: 'Hey!' };
 let d;
 
-d = cc;c
+d = cc;
 cc.greeting = 'Hello';
 console.log(d.greeting); // Hello
 
 // ?? In JavaScript, all objects interact by reference when setting them equal to each other. When you change one object, you change all of them.
 
 console.log({a:1} == {a:1});//false
-console.log({a:1} === {a:1});//false
+// console.log({a:1} === {a:1});//false
 
 // !! In JavaScript, Objects are compared based on references.
 
@@ -239,6 +240,47 @@ console.log(user);
 // const obj = {a: 1 ,b: 2}
 // const objclone = Object.assign({},obj);
 // const objclone = JSON.parse(JSON.stringify(employee));
-// ! best way const objclone = { ...obj }
+//!  const objclone = { ...obj } { spread operator can do deep copy only in the first level for other we have to use it recursively again and again , so not good}
+
+
+// Important properties of object
+
+// ? Object.keys(): return all the keys of an object in array
+
+// const obj = { a: 1, b: 2, c: 3 };
+// console.log(Object.keys(obj)); // Output: ['a', 'b', 'c']
+
+// ? Object.values(): return all the keys of an object in array
+
+// const obj = { a: 1, b: 2, c: 3 };
+// console.log(Object.values(obj)); // Output: [1, 2, 3]
+
+// ? Object.entries(): Returns an array of a given object's own enumerable string-keyed property [key, value] pairs.
+
+
+// const obj = { a: 1, b: 2, c: 3 };
+// console.log(Object.entries(obj)); // Output: [['a', 1], ['b', 2], ['c', 3]]
+
+
+// ? Object.assign(): use to merge multiple objects
+
+// const target = { a: 1 };
+// const source = { b: 2, c: 3 };
+// const merged = Object.assign(target, source);
+// console.log(merged); // Output: { a: 1, b: 2, c: 3 }
+
+// ? Object.freeze(): Freezes an object: other code cannot delete or change any properties.
+
+
+// const obj = { prop: 42 };
+// Object.freeze(obj);
+// obj.prop = 33; // fails silently in strict mode
+// console.log(obj.prop); // Output: 42
+
+
+
+
+
+
 
 

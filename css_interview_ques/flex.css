@@ -1,3 +1,4 @@
+ /* used for setting layout */
 .flex{
     justify-content: center;
     /* this works horizontally x- axis */
@@ -9,3 +10,21 @@
 
     
 }
+
+/* when we give flex to parent all the child will become display block */
+
+ /* now if we'll give height and width style to inline element  then it will work */
+/* 
+<div className="flex">
+
+<span style={height:"20px",width:"20px"}></span>
+
+</div>
+ */
+
+
+ /* by default box-sizing is content-box */
+
+ /* {
+    box-sizing: border-box;
+} */

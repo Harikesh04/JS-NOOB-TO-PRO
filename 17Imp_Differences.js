@@ -6,7 +6,7 @@ const mapres= ar.map((x)=>x+2);
 
 const foreachres= ar.forEach((ar)=>ar+2);
 
-console.log(mapres);// map will transform the array and will print the desired res.
+console.log(mapres);// map will create a new transformed  array and will print the desired res.
 console.log(foreachres);// it will print undefined it will return nothing
 console.log(ar);
 
@@ -14,10 +14,12 @@ console.log(ar);
 //suppose we want to transform the array with the help of forEach than?
 
 const res= ar.forEach((x,i)=>{ar[i]=x+2});// here the initiale arr got changed now.
+
+console.log(res);// undefined 
 console.log(ar);
 
 
-//so
+// ! conclusion
 //1.map is use to create a new transformed arr from the given array even now also we can access the prev array
 //1.for each does not do so it changes the intial array .
 

@@ -2,7 +2,7 @@
 
 // * for...of loop:
 
-// ? The for...of loop is used to iterate over an iterable object, such as an array, string, or a Map.
+// ? The for...of loop is used to iterate over an iterable data structure, such as an array, string, or a Map.
 
 const arr = ["harry","larry","carry"];
 for(let element of arr){

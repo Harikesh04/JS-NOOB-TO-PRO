@@ -1,5 +1,5 @@
 // function func(a, b, c) {
-//   a = 3; // ! will change only in scope of func.
+//   a = 3; 
 //   b[0] = "X";
 //   c.pass = false;
 // }
@@ -10,20 +10,19 @@
 // func(x, y, z);
 // console.log(x, y, z);
 
-//! Result
+// //! Result
 
 // ** 4 [ 'X', 'B', 'C' ] { pass: false }
 
-//?? Concept:  immutable:undefined,number,String,BigInt,null,Symbol => these things will not change
-//?? mutable:everthing else , Array,object,Date,map, set, function, => these will change
+// //?? Concept:  immutable:undefined,number,String,BigInt,null,Symbol => these things will not change
+// //?? mutable:everthing else , Array,object,Date,map, set, function, => these will change
 
-//! Can our browser understand jsx?
+// //! Can our browser understand jsx?
 
 // ? No, browser cann't understand jsx. To understand it must be converted into regular js using a tool Babel which is integrated into Webpack.
+ //! What is webpack?
 
-//! What is webpack?
-
-// ?? it is use to generate a single output file that is required to run the application which contains all the js modules , images, css, videos etc.
+ // ?? it is use to generate a single output file that is required to run the application which contains all the js modules , images, css, videos etc.
 
 // const promise = new Promise((res, rej) => res(2)).then((res) => {
 //   console.log(res);
@@ -54,14 +53,29 @@
 
 
 const obj1 ={
-    name:"haary",
+    name:"hello",
     class:"btech"
 }
 const obj2 ={
-    name:"haary",
+    name:"hello",
     class:"btech"
 }
 
-// console.log(obj1===obj2);// ? false
+console.log(obj1==obj2);
+
+// ? false
 
 // in js objects are compared by reference not by value
+
+
+// https://codersera.com/blog/advanced-javascript-interview-questions/#:~:text=50%2B%20Advanced%20JavaScript%20Interview%20Questions%20%28ANSWERED%29%201%20Q1%3A,use%20case%20for%20anonymous%20functions%3F%20...%20More%20items
+
+
+const arr1=[1,2,3];
+const arr3=[1,2,3];
+
+console.log(arr1==arr3);
+console.log(arr1===arr3);
+
+
+console.log(JSON.stringify(arr1) == JSON.stringify(arr3)); 

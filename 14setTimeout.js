@@ -29,7 +29,7 @@ console.log("while expires");
 
 // what happens behind the scene?
 //here the callback function inside the setTimeout will go in callback queue and here the 5 sec timer starts 
-// then we call the Data() api here  we wait for 10 s and we have blocked our main threat   i.e our call stack and after the 10 stack when the callstack become unblocked then the callback function from the callback queue will go to the call stack which was expired sometimes before and then will print suddenly.
+// then we call the Data() api here  we wait for 10 s and we have blocked our main threat   i.e our call stack and after the 10 s when the callstack become unblocked then the callback function from the callback queue will go to the call stack which was expired sometimes before and then will print suddenly.
 
 
 //Q.  what will the output(Imp)

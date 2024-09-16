@@ -46,15 +46,12 @@ var add10 = makeAdder(10);//here we have provided x as 10
 console.log(add5(2)); //now we are providing value to inner func // 7
 console.log(add10(2));// ,,,, // 
 
-//Uses of closers
+// !! Uses of closers
 // (Interview specific**)
 
-// 1.Module design CanvasPattern
-// Data privacy using closure
+// 1.Data privacy using closure
 // 2.Currying
-// 3.maintaining state in async AudioWorkletNode
-// 4.setTimeout
-//5.function like once.
+// 5.function like once.
 
 
 //Disadvantages of closure

@@ -1,6 +1,6 @@
 // super keyword
 
-// ?? the super kepword is user to access properties of the parent class which is inherited in some other class or invoke a super class constructor
+// ?? the super keyword is user to access properties of the parent class which is inherited in some other class or invoke a super class constructor
 
 class Parent{
     constructor(name) {

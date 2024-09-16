@@ -81,3 +81,6 @@ function add (x){
 
 
 console.log(add(2)(3)(4)(5)());//14
+
+
+

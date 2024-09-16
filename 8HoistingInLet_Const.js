@@ -1,17 +1,21 @@
 //HOISTING IN LET AND CONST
 
+// !! Hoisting is the default behaviour of javascript where all the variable and function declarations are moved on top.
+
+
+
 //>>LET
 
 1.//let and const are hoisted. But we can't use them before initialization is result of "temporal dead zone".
 
-// js use diff memory than global execution context to store let and cost. which is reason behind "temporal dead zone"
+// js use diff memory than global execution context to store let and cost. which is reason behind "temporal dead zone" /
 
 console.log(a);//ReferenceError: Cannot access 'a' before initialization
 let a = 10;
 
 // temporal dead zone:- it is the zone between where the let variable is called to where it is intialized
 
-// best way to avoid is to intialize var at top.
+// best way to avoid is to intialize variable of let and const at top.
 
 2.// WE CAN NOT RE DECALRE A LET VARIABLE e.g
 
