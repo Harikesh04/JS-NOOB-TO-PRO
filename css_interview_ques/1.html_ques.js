@@ -32,8 +32,6 @@
 
 // ?? this helps in improving seo
 
-
-
 // !! px vs rem vs em
 
 // ? px:static not usually recommended because it is absolute
