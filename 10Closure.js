@@ -1,6 +1,6 @@
 //What is a Closure?
 
-// A closure is the combination of a function bundled together (enclosed) with references to its  lexical environment.
+// A closure is the combination of a function bundled together (enclosed) with references to its lexical environment.
 
 // In other words, a closure gives you access to an outer function’s scope from an inner function.(**lexical scope)
 

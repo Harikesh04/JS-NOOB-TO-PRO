@@ -4,9 +4,6 @@
 // var a=b=5;
 
 
-console.log(1<2<3);
-console.log(1>2>3);
-
 let c = 10;
 c = 20;
 

@@ -213,9 +213,12 @@ multiply(value);
 
 // ! - Difference between shallow copy vs deep copy.
 
-// ?  shallow copy{made by refrence} the new variable is connected to the original variable and will affect the original var if there is change in new (shares same address)
-// ?  deep copy the new variable is not connected to the original variable and will  not affect the original var if there is change in new
+// In a shallow copy, the top-level object has a new address, but nested objects share the same address as the original.
+// Changing top-level primitive properties in the copy doesn’t affect the original.
+// Changing nested objects/arrays in the copy affects the original (and vice versa) because they reference the same memory.
+// Use a deep copy if you need a fully independent copy.
 
+//  if nothing works then lodash.cloneDeep , or may be needed to write custom deep copy functions
 
 const user3 = {
     name: "Jen",
@@ -223,7 +226,7 @@ const user3 = {
 }
 
 const shallowCopy = user3;
-const deepCopy = JSON.parse(JSON.stringify(user3));
+const deepCopy = JSON.parse(JSON.stringify(user3));// works in most of the cases , since because when we converts object to string then refresncing gots over
 
 
 console.log(user);
@@ -250,7 +253,7 @@ console.log(user);
 // const obj = { a: 1, b: 2, c: 3 };
 // console.log(Object.keys(obj)); // Output: ['a', 'b', 'c']
 
-// ? Object.values(): return all the keys of an object in array
+// ? Object.values(): return all the values of an object in array
 
 // const obj = { a: 1, b: 2, c: 3 };
 // console.log(Object.values(obj)); // Output: [1, 2, 3]

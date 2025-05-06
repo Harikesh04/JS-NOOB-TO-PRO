@@ -7,9 +7,9 @@
 
 // statement can not be evaluated in if else , but can be evaluated in terneary operator
 
-// shallow copy : two object have same address when we copy , if we change one other will be change
+// shallow copy : two object have same address when we copy on second level onwards , if we change one other will be change
 
-// deep copy: 
+// deep copy: which creates a completely independent copy of the object, including all nested structures.
 
 JSON.parse(JSON.stringify(OBJ));
 

@@ -14,8 +14,8 @@
 
 // ** 4 [ 'X', 'B', 'C' ] { pass: false }
 
-// //?? Concept:  immutable:undefined,number,String,BigInt,null,Symbol => these things will not change
-// //?? mutable:everthing else , Array,object,Date,map, set, function, => these will change
+// //?? Concept:  immutable:undefined,number,String,BigInt,null,Symbol => these things will not change ( since they are pass by value )
+// //?? mutable:everthing else , Array,object,Date,map, set, function, => these will change (since they are pass by reference)
 
 // //! Can our browser understand jsx?
 
